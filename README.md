@@ -1,5 +1,3 @@
-# Sapir Cloud DevOps - Final Lab
-
 # `Analiza Chat App`
 
 ## Introduction
@@ -101,21 +99,14 @@ Open the app on the browser , and check if your app working properly:
 ![image](https://user-images.githubusercontent.com/30344406/181877162-9c1dc4b2-18b6-4d75-8b6a-1a1ce6295b05.png)
 
 
-## Step 6️⃣: `submission` :
- 
-* Create a Diagram in svg format (using draw.io) describes the tolpology (front-end, backend ,db) you have after the deployment emphasizing port numbers for every service , use official aws & docker icons like:
+## Step 6️⃣: `termination` :
 
-![Untitled Diagram drawio](https://user-images.githubusercontent.com/30344406/181876127-4653ddb0-11e1-42e8-813e-641cb29f9446.png)
-* Export your diagram as svg file and submit it on `Leemood`
-
-* After finishing all of the steps `Stop` youe instance **(be worry! , don't terminate it)** . after your submission we will check your setup
+* After finishing all of the steps `terminate` youe instance
 
 
 ## 📧 For Contact:
 
 email: `fadi@analiza-college.co.il`
-
-discord: `Fadi#5225`
 
 
 # Good luck!
