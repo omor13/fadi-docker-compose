@@ -25,35 +25,15 @@ This Lab will teach you how to use use Docker Compose, a tool for defining and r
 
 
 
-## Step 1️⃣: `Login to AWS Management Console`
+## Step 1️⃣: `Connect to your EC2 instance using ssh`
 
-Firstly , login to aws console using the following credentials:
+ssh -i <key> <user>@<ip>
 
-| Account ID | 777203705741 |
-| ---------- | ------------ |
-| Username   | analiza      |
-| Password   | Analiza2022$ |
-
-## Step 2️⃣: `Create an EC2 Instance`
-
-Use EC2 to create a new instance with the following properties:
-
-| Instance Name: | sapir-<your_firstname>-<your_last_name> | Example: sapir-fadi-iraqi |
-| ---------- | ------------ | ------------ |
-| AMI:   |  ami-02292f97f5e004ea6 | AnalizaOS - Customized Ubuntu 22.04 with `Docker` & `Docker Compose` |
-| Type:  | t2.micro | |
-| Region:   | N.Virginia | |
-| Storage:   | 15 GB | |
-
-Then , Connect to the instance within `EC2 Instance Connect`:
-
-![image](https://user-images.githubusercontent.com/30344406/181844662-0567ac18-5f77-4f2d-a527-5f1ecdb4259d.png)
-
-## Step 3️⃣: `clone the repo`
+## Step 2️⃣: `clone the repo`
 
 Clone the repo to your server using `git clone` , then navigate into the folder
 
-## Step 4️⃣: `Deploy the multi-service app using Docker Compose` :
+## Step 3️⃣: `Deploy the multi-service app using Docker Compose` :
 
 `Docker Compose` is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services from your configuration. To learn more about all the features of Compose, see the list of features.
 
@@ -71,7 +51,7 @@ Using Compose is basically a three-step process:
 docker compose up -d
 ```
 
-## Step 5️⃣: `Tesing and validating` :
+## Step 4️⃣: `Tesing and validating` :
 
 List images:
 
@@ -97,11 +77,6 @@ Add `Security Group` inbound rule , to enable external traffic:
 Open the app on the browser , and check if your app working properly:
 
 ![image](https://user-images.githubusercontent.com/30344406/181877162-9c1dc4b2-18b6-4d75-8b6a-1a1ce6295b05.png)
-
-
-## Step 6️⃣: `termination` :
-
-* After finishing all of the steps `terminate` youe instance
 
 
 ## 📧 For Contact:
